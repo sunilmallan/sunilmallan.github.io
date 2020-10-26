@@ -7,7 +7,7 @@
 <head>
 
 <meta charset="utf-8" />
-<title>Justice For You</title>
+<title>Enzyme - Unique and Professional Corporate Theme</title>
 <meta name="description" content="">
 <meta name="author" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -15,8 +15,7 @@
 <link media="screen" charset="utf-8" rel="stylesheet" href="css/skeleton.css" />
 <link media="screen" charset="utf-8" rel="stylesheet" href="css/layout.css" />
 <link media="screen" charset="utf-8" rel="stylesheet" href="css/child.css" />
-<link rel="stylesheet" href="css/animate.min.css" type="text/css" media="screen" charset="utf-8" />
-<link rel="stylesheet" href="css/jquery.onebyone.css" type="text/css" media="screen" charset="utf-8" />
+<link href="css/asyncslider_body.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
 <!--[if (IE 6)|(IE 7)]>
     <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" />
@@ -25,12 +24,12 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]--><script type="text/javascript" language="javascript" src="js/jquery-1-8-2.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.asyncslider.min.js"></script>
 <script type="text/javascript" src="js/jquery.carousel.js"></script>
 <script type="text/javascript" src="js/jquery.color.animation.js"></script>
 <script type="text/javascript" src="js/jquery.prettyPhoto.js" charset="utf-8"></script>
 <script type="text/javascript" src="js/default.js"></script>
-<script type="text/javascript" src="js/jquery.onebyone.min.js"></script>
-<script type="text/javascript" src="js/jquery.touchwipe.min.js"></script>
+
 
 <!-- color pickers -->
 <link rel="stylesheet" media="screen" type="text/css" href="css/colorpicker.css" />
@@ -39,12 +38,9 @@
 
 </head>
 
-<body>
-	
-    <div class="page-wrapper">
-        <div class="slug-pattern slider-expand">
-            <div class="background-image" id="1"></div>
-            <div class="overlay"><div class="slug-cut"></div>
+<body><div class="page-wrapper">
+        <div class="slug-pattern slider-expand"><div class="overlay"><div class="slug-cut"></div>
+            <div class="background-image"></div>
         </div></div>
         <div class="header slider-expand">
             <div class="nav">
@@ -65,16 +61,17 @@
                             <div class="menu-wrapper">
                                 <ul class="tabs menu">
                                     <li>
-                                       <a href="index.html" class="active"><span>About</span></a>
+                                       <a href="index.html" class="active"><span>Home</span></a>
                                         <ul class="child">
-                                            <li><a href="vision.html">Vision</a></li>
-                                            <li><a href="mission.html">Mission</a></li>
-                                            <li><a href="objectives.html">Objectives</a></li>
-                                            <li><a href="values.html">Values of JFY</a></li>
+                                            <li><a href="index-nivo.html">Alternate</a></li>
+                                            <li><a href="index-async.html">Alternate 2</a></li>
+                                            <li><a href="index-flex.html">Alternate 3</a></li>
+                                            <li><a href="index-style-5.html">Alternate 4</a></li>
+                                            <li><a href="index-style-6.html">Alternate 5</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Our Expertise</a>
-                                        <!-- <ul class="child">
+                                    <li><a href="#">Pages</a>
+                                        <ul class="child">
                                             <li><a href="index.html">Homepages</a>
                                                 <ul>
                                             <li><a href="index-nivo.html">Alternate</a></li>
@@ -113,22 +110,23 @@
                                             </li>
                                             <li><a href="sidebar-right.html">Sidebar Right</a></li>
                                             <li><a href="sidebar-left.html">Sidebar Left</a></li>
-                                        </ul> -->
+                                        </ul>
                                     </li>
                                     <li>
-                                        <a href="blog.html">Our Team</a>
-                                        <!-- <ul class="child">
+                                        <a href="blog.html">Blog</a>
+                                        <ul class="child">
                                             <li><a href="blog.html">Standard Blog</a></li>
                                             <li><a href="blog-style-2.html">Blog Style 2</a></li>
                                             <li><a href="blog-style-3.html">Blog Style 3</a></li>
                                             <li><a href="blog-style-4.html">Blog Style 4</a></li>
                                             <li><a href="blog-post.html">Blog Post (Single)</a></li>
-                                        </ul> -->
+                                        </ul>
                                     </li>
-                                 <!--   <li>
+                                    <li>
                                         <a href="portfolio-standard-3.html">
-                                            Global Locations                                        </a>
-                                         <ul class="child">
+                                            Portfolio
+                                        </a>
+                                        <ul class="child">
                                             
                                             <li><a href="portfolio-standard-1.html">Standard 1 Column</a></li>
                                             <li><a href="portfolio-standard-2.html">Standard 2 Columns</a></li>
@@ -137,45 +135,15 @@
                                             <li><a href="portfolio-standard-5.html">Standard 5 Columns</a></li>
                                             <li><a href="portfolio-info.html">Info Style</a></li>
                                             <li><a href="portfolio-basic-1.html">Basic Style</a></li>
-                                        </ul> 
-                                    </li>-->
-
-
-                                    <li>
-                                        <a href="portfolio-standard-3.html">
-                                            News & Events                                        </a>
-                                            <ul class="child">
-                                                <li><a href="portfolio-standard-1.html">Publications</a></li>
-                                                <li><a href="portfolio-standard-1.html">Photos & Videos</a></li>
-                                                <li><a href="portfolio-standard-2.html">Legal News & Updates</a></li>
-                                                <li><a href="portfolio-standard-3.html">Conferences</a></li>
-                                            </ul>
-                                        </li>
-
-
-                                  <!--   <li>
-                                        <a href="portfolio-standard-3.html">
-                                            Legal News & Updates                                        </a>
-                                    </li> -->
-
-
+                                        </ul>
+                                    </li>
                                     <li>
                                         <a href="contact.html">
-                                            Contact                                        </a>                                    
-                                
-
-                                            <ul class="child">
-                                                <li><a href="portfolio-standard-1.html">Global Locations</a></li>
-                                                <li><a href="portfolio-standard-2.html">Apply for Internship</a></li>
-                                                <li><a href="portfolio-standard-3.html">Join our Team</a></li>
-                                                <li><a href="portfolio-standard-3-alternate.html">Legal Help</a></li>
-                                            </ul>
-                                
-                                        </li>
-                                
-                                
-                                        </ul>
-                          </div>
+                                            Contact
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <!-- Standard Nav Ends, Start of Mini -->
@@ -183,13 +151,13 @@
                     <div class="mini">
                         <div class="twelve column alpha omega mini">
                             <div class="logo">
-                                <a href="index.html"><img src="images/logo.png" /></a><!-- Small Logo -->
+                                <a href="index.html"><img src="images/logoMINI.png" /></a><!-- Small Logo -->
                             </div>
                         </div>
                         
                         <div class="twelve column alpha omega navagation-wrapper">
                             <select class="navagation">
-                                <option value="" selected="selected">Go to Page...</option>
+                                <option value="" selected="selected">Site Navagation</option>
                             </select>
                         </div>
                     </div>
@@ -202,67 +170,54 @@
             
             <div class="slug">
                 <div class="container">
-                    <div class="onebyone-wrapper">
+                    <div class="slider-wrapper">
                         <div class="preload">
                             <center><img src="images/design/preloader.gif" /></center>
                         </div>
                         <div class="fallback">
-                            <img src="images/fallback-image.png" class="scale-with-grid" />
+                            <img src="images/async/fallback.png" />
                         </div>
-                        <div class="outer">
-                        
-                            <div class="onebyone hide" id="onebyone">
-
-                                <div id="slide-01" class="oneByOne_item" data-bg="images/background-1.jpeg">
-                                    <div id="left">
-                                        <h3>Introducing:</h3>
-                                        <h1>The <strong>Ultimate</strong> Modern Website Solution!</h1>
-                                        <h2>Lorem Ipsum Dolar Sit Amet.</h2>
+                        <div class="asyncslider-wrapper">
+                            <div class="asyncslider hide" id="asyncslider">
+                                <div id="slide-01" class="slide">
+                                     <div class="container">
+                                        <div class="seven columns alpha push">
+                                            <h3>Introducing:</h3>
+                                            <h1>The <strong>Ultimate</strong> Modern Website Solution!</h1>
+                                            <h2>Lorem Ipsum Dolar Sit Amet.</h2>
+                                            <div id="button">
+                                                <a href="#"><img src="images/button-slider.png" /></a>
+                                            </div>
+                                        </div>
+                                        <div class="nine columns omega right relative">
+                                            <img src="images/monitor.png" class="right monitor absolute scale-with-grid" />
+                                            <img src="images/iphone.png" class="right iphone absolute scale-with-grid" />
+                                            <img src="images/laptop.png" class="right laptop absolute scale-with-grid" />
+                                        </div>
                                     </div>
-                                    <!-- <div class="button">
-                                        <a href="#"><img src="images/button-slider.png" /></a>
-                                    </div> -->
-                                    <img src="images/imac-2.png" class="monitor" />
-                                    <!-- <img src="images/iphone-2.png" class="iphone" />
-                                    <img src="images/ipad.png" class="ipad" />   -->        
                                 </div>
                                 
-                                <div id="slide-02" class="oneByOne_item" data-bg="images/background-3.jpeg">
-                                    <div id="right">
-                                    	<h2>Slider Feature:</h2>
-                                        <h1>Touch Screen Slider</h1>
-                                        <h3>Swipe This Slider With a Touchscreen Device!</h3>
-                                    </div>
-                                    <!-- <div class="button">
-                                        <a href="#"><img src="images/button-slider.png" /></a>
-                                    </div> -->
-                                    <!-- <img src="images/ipad.png" class="iphone" /> -->
-                                    <img src="images/laptop.png" class="laptop" />
-                                    <img src="images/monitor.png" class="monitor" />
-                                    
-                                </div>
+                                <div id="slide-02" class="slide">
                                 
-                                 <div id="slide-03" class="oneByOne_item" data-bg="images/background-2.jpeg">
-                                    <div id="left">
-                                    	<h3>Enzyme Is A</h3>
-                                        <h1><strong>Unique</strong> and <strong>Clean</strong> Design</h1>
-                                       	<h2>With Over 30 Responsive Pages!</h2>
+                                     <div class="container">
+                                        <div class="seven columns alpha push">
+                                            <h3>Introducing:</h3>
+                                            <h1>The <strong>Ultimate</strong> Modern Website Solution!</h1>
+                                            <h2>Lorem Ipsum Dolar Sit Amet.</h2>
+                                            <div id="button">
+                                                <a href="#"><img src="images/button-slider.png" /></a>
+                                            </div>
+                                        </div>
+                                        <div class="nine columns omega right relative">
+                                            <img src="images/monitor.png" class="right monitor absolute scale-with-grid" />
+                                            <img src="images/iphone.png" class="right iphone absolute scale-with-grid" />
+                                            <img src="images/laptop.png" class="right laptop absolute scale-with-grid" />
+                                        </div>
                                     </div>
-                                    <!-- <div class="button">
-                                        <a href="#"><img src="images/button-slider.png" /></a>
-                                    </div> -->
-                                    <img src="images/onebyone/1_laptop.png" class="laptop" />
-                                    <img src="images/onebyone/1_ipad.png" class="ipad" />
-                                    <img src="images/onebyone/1_iphone.png" class="iphone" />
-                                    <!-- <img src="images/onebyone/lens_1.png" class="lens" id="one" />
-                                    <img src="images/onebyone/lens_2.png" class="lens" id="two" />
-                                    <img src="images/onebyone/lens_3.png" class="lens" id="three" />
-                                    <img src="images/onebyone/lens_4.png" class="lens" id="four" /> -->
-                                    
                                 </div>
-                                
-                            </div>
-                        </div>
+                                   
+                            </div>  
+                        </div>       
                     </div>
                 </div>
             </div>
@@ -276,29 +231,85 @@
                     <div class="container callout">
                         
                         <div class="twelve columns">
-                            <h4>Welcome to <span>JFY</span> - We Build <span>Professional</span> Website Designs!</h4>
-                            <p class="subtitle">Enzyme is a unique and responsive theme. Sed volutpat lacinia fringilla.</p>
+                            <h4>Objectives of Justice for You!</h4>
+                            <!-- <p class="subtitle">Enzyme is a unique and responsive theme. Sed volutpat lacinia fringilla.</p> -->
                         </div>
                         
-                        <div class="four columns button-wrap">
-                            <!-- <div class="wrapper"><a href="#" class="medium-button"><span>Buy Enzyme!</span></a></div> -->
-                        </div>
+                        <!-- <div class="four columns button-wrap">
+                            <div class="wrapper"><a href="#" class="medium-button"><span>Buy Enzyme!</span></a></div>
+                        </div> -->
                     </div>
                     <div class="callout-hr"></div>                        
                     <div class="container">
-                                            	
-                   		
+                    
+                        <div class="sixteen circles columns">
+                            <ul>                                
+                                <li class="columns">
+                                    <a href="#">
+                                        <div class="icon iphone">
+                                            <div class="content">
+                                                <div class="symbol"></div>
+                                                <h5>Instant Response</h5>
+                                                <span class="hr"></span>
+                                                <p>We respond immediately on the situation as per the need of the client. </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="columns">
+                                    <a href="#">
+                                        <div class="icon client">
+                                            <div class="content">
+                                                <div class="symbol"></div>
+                                                <h5>Commitment</h5>
+                                                <span class="hr"></span>
+                                                <p>We never let our client disappointed on our commitments. </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                
+                                <li class="columns">
+                                    <a href="#">
+                                        <div class="icon gear">
+                                            <div class="content">
+                                                <div class="symbol"></div>
+                                                <h5>Discover</h5>
+                                                <span class="hr"></span>
+                                                <p>We strive to bring 100% best resources for each piece of work we delivered. </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                
+                                <li class="columns last-child">
+                                    <a href="#">
+                                        <div class="icon trophy">
+                                            <div class="content">
+                                                <div class="symbol"></div>
+                                                <h5>Passion</h5>
+                                                <span class="hr"></span>
+                                                <p>Law is not a business for us. It’s a passion for us where we enjoy to work. </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <div class="clear"></div>
+                            </ul>
+                        </div>    
                         <div class="sixteen columns">         
                             <!-- carousel starts -->
                             <div class="slidewrap">
                             	<div class="title-wrapper">
-                                    <div class="section-title">
-                                        <h4 class="title"><strong>Recent</strong> Projects</h4>
-                                    </div>
-                                    <ul class="slidecontrols">
+                                    <!-- <div class="section-title">
+                                        <h4 class="title">Recent <strong>Projects</strong></h4>
+                                    </div> -->
+                                    <!-- <ul class="slidecontrols">
                                         <li><a href="#sliderName" class="next">Next</a></li>
                                         <li><a href="#sliderName" class="prev">Prev</a></li>
-                                    </ul>
+                                    </ul> -->
+                                    <br><br>
+                                    
                                     <span class="divider"></span>
                                     <div class="clear"></div>
                                 </div>
@@ -307,11 +318,12 @@
                                         <div class="one-third column alpha portfolio-item">
                                         	<div class="content">
                                                 <div class="border">
-                                                    <img class="scale-with-grid" src="images/thirds-woman-executives.jpg" />
-                                                    <a href="images/untouched/woman-executives.jpg" class="prettyPhoto zoom"></a>
-                                                    <a class="link" href="portfolio-standard-3.html"></a>
+                                                    <img class="scale-with-grid" src="images/perseverance.jpg" />
+                                                    <a href="images/perseverance.jpg" class="zoom prettyPhoto"></a>
+                                                    <a class="link" href="#"></a>
                                                 </div>
-                                               <center><h5 class="noline"><a href="#">Integer Viverra Ante</a></h5></center>
+                                                <h5><a href="#">Perseverance</a></h5>
+                                                <p>We work with 100% dedication and commitment to provide the highest quality legal services to achieve success for the client. However, the cornerstone of honesty and truth being preserved through each and every step in the path of achieving the determined outcome. </p>
                                             </div>
                                             <div class="shadow"></div>
                                         </div>
@@ -319,11 +331,12 @@
                                         <div class="one-third column portfolio-item">
                                         	<div class="content">
                                                 <div class="border">
-                                                    <img class="scale-with-grid" src="images/thirds-business-model.jpg" />
-                                                    <a href="images/untouched/business-model.jpg" class="prettyPhoto zoom"></a>
-                                                    <a class="link" href="portfolio-standard-3.html"></a>
+                                                   	<img class="scale-with-grid" src="images/thirds-woman-laptop.jpg" />
+                                                    <a href="images/thirds-woman-laptop.jpg" class="zoom prettyPhoto"></a>
+                                                    <a class="link" href="#"></a>
                                                 </div>
-                                               <center><h5 class="noline"><a href="#">Integer Viverra Ante</a></h5></center>
+                                                <h5><a href="#">Enhancement</a></h5>
+                                                <p>Law is a dynamic subject; keeps on changing according to demand of the society. So, we update our knowledge and skills by efficient trainings. We believe in learning. We enhance our knowledge as well as share the knowledge on demand who wants to learn. </p>
                                             </div>
                                             <div class="shadow"></div>
                                         </div>
@@ -331,129 +344,34 @@
                                         <div class="one-third column omega portfolio-item">
                                         	<div class="content">
                                                 <div class="border">
-                                                    <img class="scale-with-grid" src="images/thirds-woman-laptop.jpg" />
-                                                    <a class="zoom prettyPhoto" href="images/untouched/woman-laptop.jpg"></a>
-                                                    <a class="link" href="portfolio-standard-3.html"></a>
+                                                    <img class="scale-with-grid" src="images/approach.jpg" />
+                                                    <a href="images/approach.jpg" class="zoom prettyPhoto"></a>
+                                                    <a class="link" href="#"></a>
                                                 </div>
-                                               <center><h5 class="noline"><a href="#">Integer Viverra Ante</a></h5></center>
-                                            </div>
-                                            <div class="shadow"></div>
-                                        </div>
-                                        
-                                    </li><!-- slide ends -->
-                                    <li class="slide"><!-- slide starts -->
-                                        <div class="one-third column alpha portfolio-item">
-                                        	<div class="content">
-                                                <div class="border">
-                                                    <img class="scale-with-grid" src="images/thirds-business-model.jpg" />
-                                                    <a href="images/untouched/business-model.jpg" class="prettyPhoto zoom"></a>
-                                                    <a class="link" href="portfolio-standard-3.html"></a>
-                                                </div>
-                                               <center><h5 class="noline"><a href="#">Integer Viverra Ante</a></h5></center>
-                                            </div>
-                                            <div class="shadow"></div>
-                                        </div>
-                                        
-                                        <div class="one-third column portfolio-item">
-                                        	<div class="content">
-                                                <div class="border">
-                                                	<img class="scale-with-grid" src="images/thirds-woman-executives.jpg" />
-                                                    <a href="images/untouched/woman-executives.jpg" class="prettyPhoto zoom"></a>
-                                                    <a class="link" href="portfolio-standard-3.html"></a>
-                                                </div>
-                                               <center><h5 class="noline"><a href="#">Integer Viverra Ante</a></h5></center>
-                                            </div>
-                                            <div class="shadow"></div>
-                                        </div>
-                                        
-                                        <div class="one-third column omega portfolio-item">
-                                        	<div class="content">
-                                                <div class="border">
-                                                  	<img class="scale-with-grid" src="images/thirds-woman-laptop.jpg" />
-                                                	<a href="images/untouched/woman-laptop.jpg" class="zoom prettyPhoto"></a>
-                                                    <a class="link" href="portfolio-standard-3.html"></a>
-                                                </div>
-                                               <center><h5 class="noline"><a href="#">Integer Viverra Ante</a></h5></center>
+                                                <h5><a href="#">Approach</a></h5>
+                                                <p>We actively involved in the development and enforcement of the Law in accordance thus reducing the lead time by 5%. Our approachability throughout the globe is increased by 25%. We are increasing our global presence by working day and night. </p>
                                             </div>
                                             <div class="shadow"></div>
                                         </div>
                                         
                                     </li><!-- slide ends -->
                                 </ul>
-                            </div><!-- end of carousel -->                            
-							
+                            </div><!-- end of carousel -->
+                            <span class="empty-hr"></span>
+                            
                             <div class="clear"></div>
-                            <span class="hr"></span>
                             
                             <div class="callout intext">
-                        
-                                <div class="alpha twelve columns">
-                                	<div class="content">
-                                        <h4>We are About to Manifest our Empirical Revolution!</h4>
-                                        <p class="subtitle">Pellentesque nec tortor nunc, id adipiscing orci.</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="omega four columns">
-                                   <div class="intext-button">
-                                   		<a href="#" class="big-button"><span>Check it Out!</span></a>
-                                   </div>
-                                </div>
                                 
                                 <div class="clear"></div>
                             </div>
-                            <div class="title-wrapper">
-                                <div class="section-title">
-                                    <h4 class="title"><strong>Our</strong> Clients</h4>
-                                </div>
-                                <ul class="slidecontrols">
-                                    <li><a href="#clientSlider" class="next">Next</a></li>
-                                    <li><a href="#clientSlider" class="prev">Prev</a></li>
-                                </ul>
-                                    <span class="divider"></span>
-                            	<div class="clear"></div>
-                            </div>
                         </div>
                         
-                        <div class="clients columns sixteen slidewrap2">
-                            <ul class="slider carousel" id="clientSlider">
-                                <li class="slide">
-                                    <div class="client alpha">
-                                        <a href="#"><img id="transparent" src="images/logo1.png" /></a>
-                                    </div>
-                                    <div class="client beta">
-                                        <a href="#"><img id="transparent" src="images/logo2.png" /></a>
-                                    </div>
-                                    <div class="client delta">
-                                        <a href="#"><img id="transparent" src="images/logo3.png" /></a>
-                                    </div>
-                                    <div class="client omega">
-                                        <a href="#"><img id="transparent" src="images/logo4.png" /></a>
-                                    </div>
-                                </li>
-                                
-                                <li class="slide">
-                                    <div class="client alpha">
-                                        <a href="#"><img id="transparent" src="images/logo2.png" /></a>
-                                    </div>
-                                    <div class="client beta">
-                                        <a href="#"><img id="transparent" src="images/logo3.png" /></a>
-                                    </div>
-                                    <div class="client delta">
-                                        <a href="#"><img id="transparent" src="images/logo4.png" /></a>
-                                    </div>
-                                    <div class="client omega">
-                                        <a href="#"><img id="transparent" src="images/logo1.png" /></a>
-                                    </div>
-                                </li>
-                            </ul>
-                            
-                        </div>  
                         <div class="clear"></div>
                         <div class="sixteen columns">
-                       		<span class="hr lip-quote"></span>
+                       		<span class="hr remove-bottom"></span>
                             <blockquote class="standard bottom">
-                                "Making the simple complicated is commonplace; making the complicated simple, awesomely simple, that's creativity" <br />- Charles Mingus
+                                "It's not the man that makes the vision; it's the vision that makes the man." <br />- Mahatma Gandhi
                             </blockquote>
                         </div>
                     </div>
@@ -514,15 +432,9 @@
                         <div class="sixteen columns alpha omega">
                         	<div class="foot-nav-bg"></div>
                             <div class="foot-nav">
-                                
                                 <div class="copy">
-                                   By Empirical Themes
+                                    Coptyright © 2011-2012 Enzyme. By Empirical Themes - Remove upon purchase
                                 </div>
-
-                                <div class="copy" style="margin-left: 15em;  font-family: Open Sans;  text-shadow: 0px 1px 1px #303030;">
-                                    Coptyright ©2020 Justice For You
-                                </div>
-
                                 <div class="nav">
                                     <a href="#">Home</a>
                                     <a href="#">Portfolio</a>
@@ -541,17 +453,17 @@
     <!--
         $(window).load(function(){
             // Setup Slider
-            $(".onebyone.hide").fadeIn(1000);
-            $('.onebyone').oneByOne({
-                className: 'oneByOne1',	             
-                easeType: 'random',
-                autoHideButton: false,
-                width: 960,
-                height: 840,
-                minWidth: 680,
-                slideShow: true
+            $(".asyncslider.hide").fadeIn(600);
+            $(".asyncslider").asyncSlider({
+                keyboardNavigate: true,
+                autoswitch: 4000,
+                slidesNav: true,
+                easing: 'easeInOutExpo',
+                minTime: 700,
+                maxTime: 1600, 
             });
-             $("a[class^='prettyPhoto']").prettyPhoto({social_tools: '' });
+            
+            $("a[class^='prettyPhoto']").prettyPhoto({social_tools: '' });
         });
         $(document).ready(function() {
             $('.slidewrap, .slidewrap2').carousel({
@@ -564,7 +476,6 @@
                 addNav : false
             });
 			$('.slide.testimonials').contentSlide();
-			$('.bbss').contentSlide();
         });
     // -->
     </script>
